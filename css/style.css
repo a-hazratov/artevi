@@ -218,8 +218,8 @@ body {
 .company-logos img {
     height: 3.8rem;
     width: auto;
-    filter: brightness(0);
-    opacity: 70%;
+    
+  
     margin: 1.5rem 1.5rem;
 }
 .company-logos {
