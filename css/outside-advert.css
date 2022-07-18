@@ -289,6 +289,12 @@ body {
 .nav-link-hamburger:active {
     color: #cf711f;
 }
+
+.nav-link-hamburger.active {
+    color: #cf711f;
+    text-decoration: underline;
+}
+
 .nav-dropdown-hamburger {
     text-align: center;
 }
