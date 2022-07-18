@@ -71,7 +71,7 @@
   }
   .footer-container div:nth-child(1) {
       grid-column: 1;
-      grid-row: 2;
+      grid-row: 3;
   }
   .footer-heading {
       font-size: 1.2rem;
@@ -91,11 +91,31 @@
     .service {
         grid-template-columns: repeat(1, 1fr);
     }
+    .footer-grid {
+        grid-template-columns: repeat(1, 2fr);
+        justify-items: center;
+        row-gap: 1rem;
+  
+    }
     .footer-part {
-        width: auto;
+        width: 20rem;
     }
     .experience_item {
         padding: 1rem 3rem;
     }
+    .company-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 2rem;
+        justify-items: space-around;
+        justify-items: center;
+    }
     
+}
+
+@media (max-width: 480px) {
+    .company-logos {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 1rem;
+    }
 }
