@@ -46,5 +46,92 @@
      .logo-img-small-screen {
          display: block;
      }
+
+     .cover-img-box {
+        background-image: url('/books-img/cover-medium.jpg');
+        background-repeat: no-repeat;
+        height: 350px;
+        background-size: cover;
     }
+    .cover-img-text {
+        width: 40%;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+     
+    }
+
+
+    @media (max-width: 818px) {
+        .experience {
+            grid-template-columns: repeat(2, 2fr);
+            padding: 1rem 2rem;
+            justify-items: space-around;
+        }
+        .experience_item {
+            height: 20rem;
+        }
+        .footer {
+            padding: 4.6rem 1rem;
+        }
+        .footer-grid {
+            grid-template-columns: repeat(2, 2fr);
+            justify-items: center;
+            row-gap: 1rem;
+      
+        }
+        .footer-heading {
+            margin-bottom: 1.2rem;
+        }
+        .footer-container div:nth-child(1) {
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .footer-heading {
+            font-size: 1.2rem;
+        }
+        .footer-schedule-time {
+            font-size: 1.2rem;
+        }
+      
+      } 
+      
+      @media (max-width: 705px) {
+          .footer-grid {
+              grid-template-columns: repeat(1, 2fr);
+              justify-items: center;
+              row-gap: 1rem;
+        
+          }
+          .footer-part {
+              width: 20rem;
+          }
+          .company-logos {
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              padding: 2rem 2rem;
+              justify-items: space-around;
+              justify-items: center;
+          }
+
+          .cover-img-box {
+            background-image: url('/books-img/cover-small.jpg');
+            background-repeat: no-repeat;
+            height: 250px;
+            background-size: cover;
+        }
+        .cover-img-text {
+            width: 40%;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+          
+      }
+      
+      @media (max-width: 480px) {
+          .company-logos {
+              grid-template-columns: repeat(1, 1fr);
+              padding: 1rem 1rem;
+          }
+      }
     
