@@ -392,8 +392,7 @@ main {
     background-size: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: green;
-    background-image: url('/books-img/cover.jpg');
+    background-image: url(../books-img/cover.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
